@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <label>Your ID:</label><br/>
+    <textarea id = "yourId"></textarea><br/>
+    <label>Other ID:</label><br/>
+    <textarea id = "otherId"></textarea><br/>
+    <button id = "connect">connect</button><br/>
+    <button id="stop">Stop streaming</button>
+    <button id="start">Start streaming</button><br/>
+
+    <label>Enter Message</label><br/>
+    <textarea id="yourMessage"></textarea>
+    <button id= "send">send</button>
+    <pre id="messages"></pre>
+
+    <div class="booth">
+        <video id="myvideo" style="transform: translate(-12rem,-2rem);"  autoplay>
+        </video>
+    </div>
+
+    <script src="bundle.js" charset="utf-8"></script>
+</body>
+</html>

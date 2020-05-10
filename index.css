@@ -1,0 +1,18 @@
+.booth{
+    zoom: 31%;
+    width: 300px;
+    height: 300px;
+    border-radius: 49%;
+    vertical-align: middle;
+    padding: 5px;
+    -webkit-transform-origin-x: scalex(-1);
+    transform:scaleX(-1);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+
+
+

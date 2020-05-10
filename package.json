@@ -1,0 +1,17 @@
+{
+  "name": "p2p-video-chat",
+  "version": "1.0.0",
+  "description": "simple video chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "author": "rajarajan",
+  "license": "ISC",
+  "dependencies": {
+    "simple-peer": "^9.7.0"
+  },
+  "devDependencies": {
+    "budo": "^11.6.3"
+  }
+}
